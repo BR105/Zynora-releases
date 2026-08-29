@@ -1,6 +1,6 @@
 {
-  "version": "0.3.1",
-  "date": "2026-07-30",
-  "notes": "0.3.1 - Nueva silueta fotorrealista del raton con rim light, promos de YouTube y ajustes de interfaz.",
+  "version": "0.3.2",
+  "date": "2026-08-29",
+  "notes": "0.3.2 - Las macros de teclado ya se ejecutan, el ecualizador vuelve a sonar y el menu de asignacion se ve bien. Teclados 75% con flechas, perfil predeterminado al cerrar el juego, menu rapido en la bandeja y correcciones de seguridad.",
   "url": "https://github.com/BR105/Zynora-releases/releases/latest/download/Zynora.exe"
 }
