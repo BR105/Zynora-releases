@@ -1,6 +1,6 @@
 {
-  "version": "0.3.2",
-  "date": "2026-08-29",
-  "notes": "0.3.2 - Las macros de teclado ya se ejecutan, el ecualizador vuelve a sonar y el menu de asignacion se ve bien. Teclados 75% con flechas, perfil predeterminado al cerrar el juego, menu rapido en la bandeja y correcciones de seguridad.",
+  "version": "0.3.3",
+  "date": "2026-10-16",
+  "notes": "0.3.3 - Turbo, repetir macros, modo juego, etapas de DPI y francotirador, aviso de bateria baja, efectos Musica y Pantalla, y Lumyx desactivable. Arreglado: los mapeos del teclado de portatil y el menu que aparecia al soltar un boton con macro.",
   "url": "https://github.com/BR105/Zynora-releases/releases/latest/download/Zynora.exe"
 }
