@@ -1,6 +1,6 @@
 {
-  "version": "0.3.3",
-  "date": "2026-10-16",
-  "notes": "0.3.3 - Turbo, repetir macros, modo juego, etapas de DPI y francotirador, aviso de bateria baja, efectos Musica y Pantalla, y Lumyx desactivable. Arreglado: los mapeos del teclado de portatil y el menu que aparecia al soltar un boton con macro.",
+  "version": "0.3.4",
+  "date": "2026-10-24",
+  "notes": "0.3.4 - El teclado de un portatil aparece como uno solo, las macros que mueven el raton ya cuentan como actividad (Teams no te marca ausente), puedes usar los mapeos de otro teclado y Zynora te avisa de versiones nuevas aunque este en la bandeja.",
   "url": "https://github.com/BR105/Zynora-releases/releases/latest/download/Zynora.exe"
 }
