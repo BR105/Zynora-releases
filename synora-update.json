@@ -1,6 +1,6 @@
 {
-  "version": "0.3.4",
+  "version": "0.3.5",
   "date": "2026-10-24",
-  "notes": "0.3.4 - El teclado de un portatil aparece como uno solo, las macros que mueven el raton ya cuentan como actividad (Teams no te marca ausente), puedes usar los mapeos de otro teclado y Zynora te avisa de versiones nuevas aunque este en la bandeja.",
+  "notes": "0.3.5 - Mas de treinta arreglos: las macros cortadas a medias ya no dejan teclas pegadas, los bucles siempre se pueden parar, lo que conectas con Zynora abierta se reconoce solo, el boton de efecto Lumyx funciona en la bandeja y exportar TODO incluye la iluminacion.",
   "url": "https://github.com/BR105/Zynora-releases/releases/latest/download/Zynora.exe"
 }
