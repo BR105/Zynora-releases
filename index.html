@@ -334,6 +334,18 @@ section{position:relative}
 .card h3{font-size:18px;margin-bottom:9px;letter-spacing:-.01em}
 .card p{color:var(--text-dim);font-size:14.5px}
 
+/* ---- Tarjetas de las otras apps de la casa ---- */
+.card.app{display:flex;flex-direction:column;align-items:flex-start;text-decoration:none}
+.card.app .app-ico{width:52px;height:52px;object-fit:contain;margin-bottom:18px;filter:drop-shadow(0 6px 18px rgba(0,0,0,.6))}
+.card.app p{flex:1}
+.app-cta{display:inline-flex;align-items:center;gap:8px;margin-top:20px;font-size:14px;font-weight:600;color:var(--accent)}
+.app-cta svg{width:16px;height:16px;transition:transform .2s var(--ease)}
+.card.app:hover .app-cta svg{transform:translateX(4px)}
+.app-cta.pronto{
+  color:var(--text-muted);font-weight:500;background:var(--glass);
+  border:1px solid var(--glass-brd);border-radius:100px;padding:5px 14px;font-size:12.5px;
+}
+
 /* ---- Demos vivos de Macros y Capas NYX: franja glass bajo la grilla, mismo
    lenguaje que .rgb-mock/.eq-mock (superficie, borde animado, reveal). ---- */
 .demo-strip{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
@@ -1037,6 +1049,20 @@ footer::before{
   </div>
 </section>
 
+<!-- Origen del nombre -->
+<section class="section" style="padding-top:0" id="nombre">
+  <div class="wrap reveal">
+    <div class="notice">
+      <span class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h6M14 12h6"/><path d="M10 7v10M14 7v10"/></svg></span>
+      <div>
+        <h3>¿De dónde viene el nombre?</h3>
+        <p><b>Zynora</b> une dos raíces griegas: <b>syn</b> (σύν), «con, juntos» —la misma de <i>sinergia</i> o <i>sincronía</i>— y <b>horos</b> (ὅρος), «límite, frontera» —la de <i>horizonte</i>—. Juntas significan <b>«unir fronteras»</b>.</p>
+        <p style="margin-top:12px">Esa es la idea del proyecto: que tu ratón, tu teclado, tu mando, tu iluminación y tu audio convivan en un mismo programa, sin importar la marca, en lugar de tener una app distinta para cada fabricante.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- CTA -->
 <section class="cta" id="descargar">
   <div class="wrap reveal">
@@ -1054,6 +1080,39 @@ footer::before{
 </section>
 
 <!-- FOOTER -->
+<!-- MÁS APLICACIONES — después de la descarga, para no competir con ella -->
+<section class="section" style="padding-top:0" id="apps">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow cyan">Más aplicaciones</span>
+      <h2>Otras cosas que estoy construyendo</h2>
+      <p>Todas con la misma idea: hacen una cosa, la hacen bien y no te piden cuenta. Las cuatro viven en <a href="https://br105.github.io/" style="color:var(--accent)">Gecko Apps</a>.</p>
+    </div>
+    <div class="grid reveal">
+      <a class="card app" href="https://br105.github.io/Vocyra-releases/">
+        <img class="app-ico" src="assets/app-vocyra.png" alt="" loading="lazy">
+        <h3>Vocyra</h3>
+        <p>Soundboard y cambiador de voz para Windows: sonidos ilimitados en Discord, juegos y llamadas, con atajos que siguen funcionando dentro del juego.</p>
+        <span class="app-cta">Ver la página
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </span>
+      </a>
+      <div class="card app">
+        <img class="app-ico" src="assets/app-opsira.png" alt="" loading="lazy">
+        <h3>Opsira</h3>
+        <p>Editor de foto y video para Android: filtros, recorte, quitar el fondo, collage y texto, sin marca de agua.</p>
+        <span class="app-cta pronto">Próximamente</span>
+      </div>
+      <div class="card app">
+        <img class="app-ico" src="assets/app-ordira.png" alt="" loading="lazy">
+        <h3>Ordira</h3>
+        <p>Acomoda tus fotos en cuadrícula y mira cómo va a quedar tu perfil antes de publicar nada.</p>
+        <span class="app-cta pronto">Próximamente</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="wrap">
     <div class="foot">
