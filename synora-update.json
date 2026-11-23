@@ -1,6 +1,6 @@
 {
-  "version": "0.3.5",
-  "date": "2026-10-24",
-  "notes": "0.3.5 - Mas de treinta arreglos: las macros cortadas a medias ya no dejan teclas pegadas, los bucles siempre se pueden parar, lo que conectas con Zynora abierta se reconoce solo, el boton de efecto Lumyx funciona en la bandeja y exportar TODO incluye la iluminacion.",
+  "version": "0.3.6",
+  "date": "2026-11-23",
+  "notes": "0.3.6 - Zynora puede abrirse sola al iniciar Windows, avisa en pantalla cuando un perfil cambia solo, te dice si el antivirus no la deja leer el teclado, cambias de dispositivo desde su nombre y en Macros ves a que tecla esta asignada cada una.",
   "url": "https://github.com/BR105/Zynora-releases/releases/latest/download/Zynora.exe"
 }
