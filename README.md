@@ -6,7 +6,7 @@ Hub gratuito y portable para Windows: remapeo, macros, RGB (Lumyx) y ecualizador
 **https://br105.github.io/Zynora-releases/**
 
 ### VirusTotal
-**https://www.virustotal.com/gui/file/115995a7d572fa7c845ff9bc1d1878bc69ed6a12e59fa197e94794888558162b**
+**https://www.virustotal.com/gui/file/7f84ca3b8ef2b4cfa3859dee3b94eeb36e31ec3da375d0ee0d5f84e8c043d9cb**
 
 ## Instalación
 
