@@ -1,6 +1,6 @@
 {
-  "version": "0.3.7",
+  "version": "0.3.8",
   "date": "2026-11-23",
-  "notes": "0.3.7 - Nuevo en Ajustes: «Copiar diagnóstico del teclado» para cuando una tecla no hace lo que le asignaste. Incluye lo de la 0.3.6: abrirse al iniciar Windows, aviso al cambiar de perfil solo y aviso si el antivirus bloquea el teclado.",
+  "notes": "0.3.8 - «Mover a» en las macros se adapta si cambias de monitores: lo grabado en el centro de una pantalla vuelve al centro aunque ahora uses otra. Incluye lo de la 0.3.6 y 0.3.7.",
   "url": "https://github.com/BR105/Zynora-releases/releases/latest/download/Zynora.exe"
 }
